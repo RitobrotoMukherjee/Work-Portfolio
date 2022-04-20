@@ -6,6 +6,10 @@
   font-family: 'Inter', sans-serif;
 }
 
+a:hover {
+  background-color: #36b37f;
+}
+
 #mobile-navbar {
   display: flex;
   justify-content: space-between;
@@ -45,7 +49,7 @@
   color: #172b4d;
 }
 
-#header-second {
+.color-theme-green {
   color: #36b37f;
 }
 
