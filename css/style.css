@@ -1,38 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 #mobile-navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 10px 12px;
-  width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 12px;
+    width: 375px;
 }
 
 .welcome-logo {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  color: #28352f;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #28352f;
 }
 
 .main-section {
-  background-image: url("../assets/backgrounds/header-mobile@2x.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 400px;
-  height: 685px;
-  top: 92px;
+    background-image: url("../assets/backgrounds/header-mobile@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 685px;
+    top: 92px;
+}
+
+.color-deep-blue{
+    color: #172B4D;
+}
+
+#header-second {
+    color: #36B37F;
+}
+
+.primary-header-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.main-content-margin-div {
+    margin: 58px 0px;
+    text-align: center;
+}
+
+.heading-supporting-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0px 20px;
 }
