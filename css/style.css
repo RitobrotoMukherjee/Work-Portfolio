@@ -103,3 +103,17 @@ a:hover {
   align-items: center;
   list-style-type: none;
 }
+
+.scroll-btn {
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 32px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.scroll-btn > img {
+  height: 24px;
+  width: 22px;
+}
