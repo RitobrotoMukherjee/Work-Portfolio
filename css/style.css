@@ -37,6 +37,10 @@
   top: 92px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .color-deep-blue {
   color: #172b4d;
 }
@@ -52,8 +56,7 @@
 }
 
 .main-content-margin-div {
-  margin: 58px 0;
-  text-align: center;
+  margin: 40px 0;
 }
 
 .heading-supporting-text {
@@ -61,4 +64,13 @@
   font-size: 20px;
   line-height: 28px;
   padding: 0 20px;
+}
+
+.social-media {
+  color: #505f79;
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
