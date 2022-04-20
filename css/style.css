@@ -36,7 +36,8 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
   padding: 15px 20px;
-  width: 375px;
+
+  /* width: 375px; */
 }
 
 .welcome-logo {
@@ -58,8 +59,9 @@ a:hover {
   align-items: center;
   flex-direction: column;
   min-height: 100px;
-  width: 400px;
-  height: 685px;
+
+  /* width: 400px;
+  height: 685px; */
   top: 92px;
 }
 
@@ -99,4 +101,5 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style-type: none;
 }
