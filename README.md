@@ -13,7 +13,7 @@ It's a Full Stack Software Developer portfolio.
 
 ## Install
 
-- Run ```npm install
+- Run ``` npm install ```
 
 ## Authors
 
