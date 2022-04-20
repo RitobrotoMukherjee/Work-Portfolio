@@ -7,6 +7,14 @@ It's a Full Stack Software Developer portfolio.
 - CSS3
 - Linter
 
+## Getting Started
+
+- NodeJs, npm needs to be installed in system
+
+## Install
+
+- Run ```npm install
+
 ## Authors
 
 - GitHub: [@RitobrotoMukherjee](https://github.com/RitobrotoMukherjee)
