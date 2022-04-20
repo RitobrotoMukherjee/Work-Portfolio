@@ -10,6 +10,26 @@ a:hover {
   background-color: #36b37f;
 }
 
+.button {
+  height: 48px;
+  width: 91px;
+  border-radius: 4px;
+  border-color: #36b37f;
+  padding: 12px;
+}
+
+.button-enabled {
+  background-color: #36b37f;
+}
+
+.button:hover {
+  background-color: #36b37f;
+}
+
+.button:active {
+  background-color: #008552;
+}
+
 #mobile-navbar {
   display: flex;
   justify-content: space-between;
