@@ -11,6 +11,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 10px 12px;
+  width: 375px;
 }
 
 .welcome-logo {
@@ -20,4 +21,18 @@
   font-size: 20px;
   line-height: 28px;
   color: #28352f;
+}
+
+.main-section {
+  background-image: url("../assets/backgrounds/header-mobile@2x.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 685px;
+  top: 92px;
 }
