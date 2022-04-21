@@ -32,6 +32,10 @@ a:hover {
   background-color: #008552;
 }
 
+.long-btn {
+  width: 150px;
+}
+
 #mobile-navbar {
   display: flex;
   justify-content: space-between;
@@ -62,7 +66,7 @@ a:hover {
   top: 92px;
 }
 
-.portfolio-section {
+.section-basic {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,6 +74,12 @@ a:hover {
   min-height: 100px;
   min-width: auto;
   padding: 10px;
+}
+
+.about-me-section-bg {
+  background-image: url("../assets/backgrounds/about-me-mobile.png"), url("../assets/backgrounds/about-me-mobile-header-bg.png");
+  background-repeat: no-repeat no-repeat;
+  background-position: bottom left, top right;
 }
 
 .text-center {
@@ -104,6 +114,11 @@ a:hover {
 
 .main-content-margin-div {
   margin: 40px 0;
+}
+
+.section-main-content-margin {
+  margin: 25px 0;
+  width: 100%;
 }
 
 .heading-supporting-text {
