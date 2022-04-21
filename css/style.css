@@ -146,3 +146,25 @@ a:hover {
 .color-success {
   color: #36b37e;
 }
+
+.css-grid {
+  min-height: 100px;
+  min-width: 75%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, 250px);
+  justify-content: center;
+  padding: 4px 2px;
+}
+
+.grid-items {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background: #ebf0ee;
+  min-height: 300px;
+}
