@@ -152,9 +152,9 @@ a:hover {
   min-width: 75%;
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(auto-fit, 250px);
+  grid-template-columns: repeat(auto-fit, 310px);
   justify-content: center;
-  padding: 4px 2px;
+  padding: 4px 15px;
 }
 
 .grid-items {
@@ -166,5 +166,25 @@ a:hover {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   background: #ebf0ee;
-  min-height: 300px;
+  min-height: 450px;
+}
+
+.image-container {
+  height: 60%;
+  width: auto;
+}
+
+.image-container > img {
+  width: 100%;
+  border-radius: 7px;
+  object-fit: cover;
+}
+
+.project-description {
+  background-color: #ffff;
+  border-top: 1px solid #ffff;
+  border-radius: 8px;
+  height: 40%;
+  width: 100%;
+  text-align: center;
 }
