@@ -32,5 +32,9 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse: [View Site](https://www.microverse.org/)
+
+## Code Reviewer
+
 - Eze Promise: [codepantha](https://github.com/codepantha)
 - Zain Sadaqat: [zainsadaqat](https://github.com/zainsadaqat)
+- Oluwafemi Awoyemi: [phelian23](https://github.com/phelian23)
