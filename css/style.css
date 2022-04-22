@@ -6,6 +6,10 @@
   font-family: 'Inter', sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 a:hover {
   background-color: #36b37f;
 }
