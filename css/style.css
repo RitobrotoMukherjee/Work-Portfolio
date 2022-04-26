@@ -10,6 +10,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: #42526e;
+}
+
 a:hover {
   background-color: #36b37f;
 }
@@ -320,7 +325,7 @@ footer {
   background-image: url("../assets/backgrounds/footer-bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  text-align: center; 
+  text-align: center;
 }
 
 .contact-form-margin {
@@ -357,4 +362,31 @@ textarea {
   box-sizing: border-box;
   border-radius: 4px;
   height: 80px;
+}
+
+.social-media-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #505f79;
+  width: 80%;
+  margin: 1px auto;
+  height: 20px;
+  list-style-type: none;
+}
+
+.social-media-contact > li {
+  flex: 1 1 20%;
+}
+
+.footer-email {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  width: 75%;
+}
+
+.footer-email:hover {
+  background-color: #36b37f;
+  color: #fff;
 }
