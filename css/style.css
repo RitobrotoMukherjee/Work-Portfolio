@@ -114,7 +114,7 @@ a:hover {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin: 0px 25px;
+  margin: 0 25px;
 }
 
 .main-content-margin-div {
@@ -322,6 +322,11 @@ footer {
   background-position: bottom right;
 }
 
+.contact-form-margin {
+  margin: 10px 0;
+  width: 100%;
+}
+
 .contact-form {
   display: flex;
   justify-content: center;
@@ -334,4 +339,21 @@ footer {
   width: 100%;
   margin: 10px auto;
   padding: 5px;
+}
+
+input[type=text],
+input[type=email] {
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 35px;
+}
+
+textarea {
+  background: #fff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 80px;
 }

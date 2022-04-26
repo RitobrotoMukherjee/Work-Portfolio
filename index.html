@@ -245,19 +245,18 @@
                 projects, so if you'd like to chat please get in touch.
             </h2>
         </div>
-        <div class="section-main-content-margin text-center">
+        <div class="contact-form-margin text-center">
             <!-- form code -->
             <form id="contact-form" class="contact-form" action="https://formspree.io/f/xbjwpgay" method="POST">
 
-                <input class="form-controls" placeholder="Full name" type="text" name="name">
-                <input class="form-controls" placeholder="Email address" type="email" name="email">
+                <input class="form-controls" placeholder="Full name" type="text" name="name" maxlength="30" required />
+                <input class="form-controls" placeholder="Email address" type="email" name="email" required />
 
-                <textarea class="form-controls" placeholder="Enter text here" name="message"></textarea>
+                <textarea class="form-controls" placeholder="Enter text here" name="message" maxlength="500" required ></textarea>
 
                 <!-- your other form fields go here -->
-                <button type="submit">Get in touch</button>
+                <button class="button long-btn text-center" type="submit">Get in touch</button>
             </form>
-
         </div>
     </footer>
 
