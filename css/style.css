@@ -114,6 +114,7 @@ a:hover {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin: 0px 25px;
 }
 
 .main-content-margin-div {
@@ -319,5 +320,18 @@ footer {
   background-image: url("../assets/backgrounds/footer-bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: auto;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.form-controls {
+  width: 100%;
+  margin: 10px auto;
+  padding: 5px;
 }
