@@ -309,3 +309,15 @@ a:hover {
   color: #36b37e;
   margin: 3px;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100px;
+  width: 100%;
+  background-image: url("../assets/backgrounds/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto;
+}
