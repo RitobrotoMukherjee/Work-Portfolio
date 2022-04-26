@@ -320,6 +320,7 @@ footer {
   background-image: url("../assets/backgrounds/footer-bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
+  text-align: center; 
 }
 
 .contact-form-margin {
