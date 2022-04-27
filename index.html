@@ -254,50 +254,84 @@
     </section>
 
     <footer>
-        <div class="contact-form-margin text-center">
-            <h2 class="primary-header-text color-deep-blue portfolio-heading">
-                I'm always interested in hearing about new
-                projects, so if you'd like to chat please get in touch.
-            </h2>
+        <div class="footer-main-div text-center">
+            <div id="footer-heading" class="contact-form-margin text-center">
+                <h2 class="primary-header-text color-deep-blue portfolio-heading">
+                    I'm always interested in hearing about new
+                    projects, so if you'd like to chat please get in touch.
+                </h2>
+            </div>
+            <div id="footer-form" class="contact-form-margin text-center">
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/xbjwpgay" method="POST">
+                    <input class="form-controls" placeholder="Full name" type="text" name="name" maxlength="30"
+                        required />
+                    <input class="form-controls" placeholder="Email address" type="email" name="email" required />
+                    <textarea class="form-controls" placeholder="Enter text here" name="message" maxlength="500"
+                        required></textarea>
+                    <button class="button long-btn text-center" type="submit">Get in touch</button>
+                </form>
+
+                <ul class="social-media-contact">
+                    <li>
+                        <a href="#">
+                            <img src="./assets/icons/social-icons/twitter.png" alt="Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/icons/social-icons/Linkedin-icon.png" alt="LinkedIn">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/icons/social-icons/medium.png" alt="Medium">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/icons/social-icons/github.png" alt="GitHub">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/icons/social-icons/angellist.png" alt="Angel list">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="mobile-footer-email" class="contact-form-margin text-center">
+                <a class="footer-email"
+                    href="mailto:ritobrotomukherjee1991@gmail.com">ritobrotomukherjee1991@gmail.com</a>
+            </div>
         </div>
-        <div class="contact-form-margin text-center">
-            <form id="contact-form" class="contact-form" action="https://formspree.io/f/xbjwpgay" method="POST">
-                <input class="form-controls" placeholder="Full name" type="text" name="name" maxlength="30" required />
-                <input class="form-controls" placeholder="Email address" type="email" name="email" required />
-                <textarea class="form-controls" placeholder="Enter text here" name="message" maxlength="500" required ></textarea>
-                <button class="button long-btn text-center" type="submit">Get in touch</button>
-            </form>
-            
-            <ul class="social-media-contact">
-                <li>
+        <div id="desktop-footer-social-links" class="text-center">
+            <ul class="social-media">
+                <li class="social-media-flex-item">
                     <a href="#">
                         <img src="./assets/icons/social-icons/twitter.png" alt="Twitter">
                     </a>
                 </li>
-                <li>
+                <li class="social-media-flex-item">
                     <a href="#">
                         <img src="./assets/icons/social-icons/Linkedin-icon.png" alt="LinkedIn">
                     </a>
                 </li>
-                <li>
+                <li class="social-media-flex-item">
                     <a href="#">
                         <img src="./assets/icons/social-icons/medium.png" alt="Medium">
                     </a>
                 </li>
-                <li>
+                <li class="social-media-flex-item">
                     <a href="#">
                         <img src="./assets/icons/social-icons/github.png" alt="GitHub">
                     </a>
                 </li>
-                <li>
+                <li class="social-media-flex-item">
                     <a href="#">
                         <img src="./assets/icons/social-icons/angellist.png" alt="Angel list">
                     </a>
                 </li>
             </ul>
-        </div>
-        <div class="contact-form-margin text-center">
-            <a class="footer-email"  href="mailto:ritobrotomukherjee1991@gmail.com">ritobrotomukherjee1991@gmail.com</a>
         </div>
     </footer>
 

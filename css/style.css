@@ -343,13 +343,22 @@ a:hover {
 footer {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100px;
+  width: 100%;
+}
+
+.footer-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   min-height: 100px;
   width: 100%;
   background-image: url("../assets/backgrounds/footer-bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  text-align: center;
 }
 
 .contact-form-margin {
@@ -425,11 +434,20 @@ textarea {
   text-decoration-thickness: 2px;
 }
 
+#desktop-footer-social-links {
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   body {
     background-image: url("../assets/backgrounds/desktop/Header-desktop.png");
     background-size: 100%;
     background-repeat: no-repeat;
+  }
+
+  .footer-main-div {
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .about-me-section-bg {
@@ -444,6 +462,11 @@ textarea {
   }
 
   #mobile-navbar {
+    display: none;
+  }
+
+  #mobile-footer-email,
+  .social-media-contact {
     display: none;
   }
 
@@ -463,5 +486,32 @@ textarea {
 
   .heading-supporting-text {
     max-width: 90%;
+  }
+
+  #footer-heading {
+    flex-grow: 1;
+  }
+
+  #footer-form {
+    flex-grow: 2;
+  }
+
+  #footer-heading > h2 {
+    font-size: 30px;
+  }
+
+  #footer-heading > h2::after {
+    display: none;
+  }
+
+  .contact-form {
+    align-items: flex-start;
+  }
+
+  #desktop-footer-social-links {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid #dfe1e6;
   }
 }
