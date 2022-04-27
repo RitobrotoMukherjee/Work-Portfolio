@@ -165,7 +165,7 @@ a:hover {
 }
 
 .social-media-flex-item {
-  margin: 0 6px;
+  margin: 0 12px;
 }
 
 .social-media-flex-item:hover {
@@ -346,7 +346,6 @@ footer {
   justify-content: center;
   flex-direction: column;
   min-height: 100px;
-  width: 100%;
 }
 
 .footer-main-div {
@@ -438,16 +437,49 @@ textarea {
   display: none;
 }
 
-@media screen and (min-width: 800px) {
+.footer-image-holder {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
   body {
     background-image: url("../assets/backgrounds/desktop/Header-desktop.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
 
+  footer {
+    padding: 0 80px;
+  }
+
   .footer-main-div {
     flex-wrap: nowrap;
     justify-content: center;
+    background-image: none;
+  }
+
+  .footer-image-holder {
+    position: relative;
+    display: inline-block;
+    min-height: 200px;
+  }
+
+  .contact-image-one {
+    position: absolute;
+    left: 412px;
+    top: -296px;
+  }
+
+  .contact-image-two {
+    position: absolute;
+    right: 196px;
+    bottom: 40%;
+  }
+
+  .contact-image-three {
+    position: absolute;
+    right: 435px;
+    bottom: 7%;
   }
 
   .about-me-section-bg {
@@ -498,6 +530,7 @@ textarea {
 
   #footer-heading > h2 {
     font-size: 30px;
+    text-align: justify;
   }
 
   #footer-heading > h2::after {
@@ -511,7 +544,11 @@ textarea {
   #desktop-footer-social-links {
     display: block;
     width: 100%;
-    padding: 15px 0;
+    padding: 25px 0;
     border-top: 1px solid #dfe1e6;
+  }
+
+  .contact-images-desktop {
+    display: inline-block;
   }
 }
