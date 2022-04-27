@@ -45,6 +45,10 @@ a:hover {
   width: 150px;
 }
 
+.card:hover {
+  box-shadow: 1px 5px 10px 5px rgb(225, 220, 220);
+}
+
 #mobile-navbar {
   display: flex;
   justify-content: space-between;
@@ -428,6 +432,11 @@ textarea {
     background-repeat: no-repeat;
   }
 
+  .about-me-section-bg {
+    background-image: url("../assets/backgrounds/desktop/about-me-left-desktop.png"), url("../assets/backgrounds/desktop/about-me-right-desktop.png");
+    background-position: bottom left, top right;
+  }
+
   .main-section {
     background-image: none;
     background-size: 99vw;
@@ -451,7 +460,6 @@ textarea {
   .main-content-margin-div {
     width: 75%;
   }
-
   .heading-supporting-text {
     max-width: 90%;
   }
