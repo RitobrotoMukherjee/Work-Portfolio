@@ -425,7 +425,7 @@ textarea {
   text-decoration-thickness: 2px;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 800px) {
   body {
     background-image: url("../assets/backgrounds/desktop/Header-desktop.png");
     background-size: 100%;
@@ -460,6 +460,7 @@ textarea {
   .main-content-margin-div {
     width: 75%;
   }
+
   .heading-supporting-text {
     max-width: 90%;
   }
