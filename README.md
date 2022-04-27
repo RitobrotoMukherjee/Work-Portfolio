@@ -33,10 +33,6 @@ Give a ⭐️ if you like this project!
 
 - Microverse: [View Site](https://www.microverse.org/)
 
-## Contributer
-
-- Henry [@henrycode460](https://github.com/henrycode460)
-
 ## Code Reviewer
 
 - Eze Promise: [codepantha](https://github.com/codepantha)
