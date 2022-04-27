@@ -1,0 +1,30 @@
+/*  Media Queries for mobile screens */
+
+@media (max-width: 690px) {
+    #mobile-navbar{
+        display: flex;
+    }
+    .main-section {
+        background-image: url("../assets/backgrounds/header-mobile@2x.png");
+    }
+    .main-content-margin-div {
+        margin: 35px 0;
+      }
+}
+
+/* Media Queries for desktop screens */
+
+@media (min-width: 720px) {
+    #mobile-navbar{
+        display: none;
+    }
+    .main-section {
+        background-image: url("../assets/backgrounds/desktop/Header-desktop.png");
+        background-position: center center;
+    }
+    .main-content-margin-div {
+        margin: 40px auto;
+        width: 75%;
+    }
+
+}

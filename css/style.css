@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import url('./media-queries.css');
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +46,6 @@ a:hover {
 }
 
 #mobile-navbar {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -63,7 +62,6 @@ a:hover {
 }
 
 .main-section {
-  background-image: url("../assets/backgrounds/header-mobile@2x.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -122,10 +120,6 @@ a:hover {
   margin: 0 25px;
 }
 
-.main-content-margin-div {
-  margin: 40px 0;
-}
-
 .section-main-content-margin {
   margin: 25px 0;
   width: 100%;
@@ -140,12 +134,14 @@ a:hover {
 
 .social-media {
   color: #505f79;
-  width: 170.17px;
   height: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   list-style-type: none;
+}
+.social-media-flex-item{
+  margin: 0px 6px;
 }
 
 .scroll-btn {
@@ -390,3 +386,5 @@ textarea {
   background-color: #36b37f;
   color: #fff;
 }
+
+
