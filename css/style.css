@@ -511,7 +511,24 @@ textarea {
     margin-left: -140px;
     font-weight: 600;
     font-size: 15px;
+    animation-name: slideInLeft;
+    animation-duration: 3s;
   }
+
+  @keyframes slideInLeft {
+    0% {
+      left: 0%;
+    }
+
+    50% {
+      font-size: 20px;
+    }
+    100% {
+      left: 50%;
+      font-size: 15px;;
+    }
+  } 
+
 
   .main-content-margin-div {
     width: 75%;
