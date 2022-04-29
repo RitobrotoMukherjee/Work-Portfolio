@@ -125,6 +125,26 @@ a:hover {
   color: #36b37f;
 }
 
+#header-first {
+  animation: slideInRight 2s;
+}
+
+#header-second {
+  animation: slideInRight 6s;
+}
+
+@keyframes slideInRight {
+  0% {
+    margin-left: 100%;
+    width: 200%;
+  }
+  100% {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
 .portfolio-heading::after {
   width: 48px;
   height: 4px;
