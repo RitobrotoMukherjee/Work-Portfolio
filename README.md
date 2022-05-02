@@ -1,5 +1,8 @@
 # Portfolio
-It's a Full Stack Software Developer portfolio.
+It's a responsive Full Stack Software Developer portfolio.
+
+## GitHub Pages Link
+
 
 ## Built With
 
