@@ -469,38 +469,36 @@ textarea {
     background-repeat: no-repeat;
   }
 
-  footer {
-    padding: 0 80px;
-  }
-
   .footer-main-div {
     flex-wrap: nowrap;
     justify-content: center;
     background-image: none;
+    width: 85%;
   }
 
   .footer-image-holder {
     position: relative;
     display: inline-block;
     min-height: 200px;
+    width: 100%;
   }
 
   .contact-image-one {
     position: absolute;
-    left: 412px;
-    top: -296px;
+    right: 0;
+    bottom: 0;
   }
 
   .contact-image-two {
     position: absolute;
-    right: 196px;
-    bottom: 40%;
+    left: 25%;
+    bottom: 45%;
   }
 
   .contact-image-three {
     position: absolute;
-    right: 435px;
-    bottom: 7%;
+    left: 0;
+    bottom: 2%;
   }
 
   .about-me-section-bg {
