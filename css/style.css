@@ -85,7 +85,7 @@ a:hover {
   top: 32px;
   color: #67798e;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 14px;
 }
 
 .mobile-menu {
@@ -100,6 +100,10 @@ a:hover {
   font-size: 32px;
   line-height: 44px;
   color: #3a4a42;
+  margin-top: 30px;
+}
+
+.mobile-menu-items:first-child {
   margin-top: 10px;
 }
 
