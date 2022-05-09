@@ -15,7 +15,7 @@
             <div class="nav-items">
                 <a class="welcome-logo" href="#">Welcome</a>
             </div>
-            <div class="nav-items" onclick="showMobileMenu()">
+            <div class="nav-items toggle-mobile-menu">
                 <img src="./assets/icons/hamburger-menu-24.png" alt="hamburger-menu-icon">
             </div>
         </nav>
@@ -33,23 +33,6 @@
             </ul>
         </nav>
     </header>
-
-    <section id="mobile-menu" class="mobile-menu-background display-none">
-        <div class="menu-mobile-div">
-            <div class="close-menu" onclick="hideMobileMenu()">X</div>
-            <ul class="mobile-menu">
-                <li class="mobile-menu-items">
-                    <a href="#my-portfolio" onclick="hideMobileMenu()">Portfolio</a>
-                </li>
-                <li class="mobile-menu-items">
-                    <a href="#about-me" onclick="hideMobileMenu()">About</a>
-                </li>
-                <li class="mobile-menu-items">
-                    <a href="#contact-form" onclick="hideMobileMenu()">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </section>
 
     <main>
         <section id="main" class="main-section text-center">
@@ -360,6 +343,23 @@
             </ul>
         </div>
     </footer>
+
+    <section id="mobile-menu" class="mobile-menu-background display-none">
+        <div class="menu-mobile-div">
+            <h6 class="close-menu toggle-mobile-menu" >X</h6>
+            <ul class="mobile-menu">
+                <li class="mobile-menu-items">
+                    <a class="toggle-mobile-menu" href="#my-portfolio">Portfolio</a>
+                </li>
+                <li class="mobile-menu-items">
+                    <a class="toggle-mobile-menu" href="#about-me" >About</a>
+                </li>
+                <li class="mobile-menu-items">
+                    <a class="toggle-mobile-menu" href="#contact-form" >Contact</a>
+                </li>
+            </ul>
+        </div>
+    </section>
 
     
     <script src="script.js"></script>

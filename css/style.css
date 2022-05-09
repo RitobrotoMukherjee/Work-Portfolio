@@ -62,9 +62,13 @@ a:hover {
 }
 
 .mobile-menu-background {
-  background: #E5E5E5;
+  background: #e5e5e5;
   height: 100vh;
   z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .menu-mobile-div {
@@ -77,8 +81,9 @@ a:hover {
   position: absolute;
   right: 29px;
   top: 32px;
-  color: #67798E;
+  color: #67798e;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .mobile-menu {
@@ -92,7 +97,7 @@ a:hover {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #3A4A42;
+  color: #3a4a42;
   margin-top: 10px;
 }
 
@@ -241,7 +246,7 @@ a:hover {
   padding: 8px;
 }
 
-.scroll-btn>img {
+.scroll-btn > img {
   height: 24px;
   width: 22px;
 }
@@ -297,7 +302,7 @@ a:hover {
   width: auto;
 }
 
-.image-container>img {
+.image-container > img {
   width: 100%;
   border-radius: 7px;
   object-fit: cover;
@@ -363,7 +368,7 @@ a:hover {
   border-radius: 40px;
 }
 
-.skill-icons>img {
+.skill-icons > img {
   width: 60%;
 }
 
@@ -467,7 +472,7 @@ textarea {
   list-style-type: none;
 }
 
-.social-media-contact>li {
+.social-media-contact > li {
   flex: 1 1 20%;
 }
 
@@ -607,12 +612,12 @@ textarea {
     flex-grow: 2;
   }
 
-  #footer-heading>h2 {
+  #footer-heading > h2 {
     font-size: 30px;
     text-align: justify;
   }
 
-  #footer-heading>h2::after {
+  #footer-heading > h2::after {
     display: none;
   }
 

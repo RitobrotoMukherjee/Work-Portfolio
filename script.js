@@ -1,23 +1,10 @@
-const header = document.querySelector('header');
-const footer = document.querySelector('footer');
-const main = document.querySelector('main');
-const elementsArr = [header, footer, main];
+const toggleMenuButton = document.querySelectorAll('.toggle-mobile-menu');
 
-function toggleMobileMenu() {
+function toggleMobileMenuView() {
   const section = document.querySelector('#mobile-menu');
   section.classList.toggle('display-none');
 }
 
-function hideMobileMenu() {
-  elementsArr.forEach((element) => {
-    element.style.display = 'block';
-  });
-  toggleMobileMenu();
-}
-
-function showMobileMenu() {
-  elementsArr.forEach((element) => {
-    element.style.display = 'none';
-  });
-  toggleMobileMenu();
-}
+toggleMenuButton.forEach((item) => {
+  item.addEventListener('click', toggleMobileMenuView);
+});
