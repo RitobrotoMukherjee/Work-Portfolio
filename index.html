@@ -11,14 +11,14 @@
 
 <body>
     <header>
-        <!-- <nav id="mobile-navbar">
+        <nav id="mobile-navbar">
             <div class="nav-items">
                 <a class="welcome-logo" href="#">Welcome</a>
             </div>
-            <div class="nav-items">
+            <div class="nav-items" onclick="showMobileMenu()">
                 <img src="./assets/icons/hamburger-menu-24.png" alt="hamburger-menu-icon">
             </div>
-        </nav> -->
+        </nav>
         <nav id="dektop-navbar" class="text-center">
             <ul class="menu-link">
                 <li class="dektop-menu-items">
@@ -34,18 +34,18 @@
         </nav>
     </header>
 
-    <section id="mobile-menu" class="mobile-menu-background ">
+    <section id="mobile-menu" class="mobile-menu-background display-none">
         <div class="menu-mobile-div">
-            <div class="close-menu">X</div>
+            <div class="close-menu" onclick="hideMobileMenu()">X</div>
             <ul class="mobile-menu">
                 <li class="mobile-menu-items">
-                    <a href="#my-portfolio">Portfolio</a>
+                    <a href="#my-portfolio" onclick="hideMobileMenu()">Portfolio</a>
                 </li>
                 <li class="mobile-menu-items">
-                    <a href="#about-me">About</a>
+                    <a href="#about-me" onclick="hideMobileMenu()">About</a>
                 </li>
                 <li class="mobile-menu-items">
-                    <a href="#contact-form">Contact</a>
+                    <a href="#contact-form" onclick="hideMobileMenu()">Contact</a>
                 </li>
             </ul>
         </div>
@@ -362,7 +362,7 @@
     </footer>
 
     
-
+    <script src="script.js"></script>
 </body>
 
 </html>
