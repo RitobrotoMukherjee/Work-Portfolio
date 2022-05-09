@@ -73,8 +73,10 @@ a:hover {
 
 .menu-mobile-div {
   position: relative;
-  height: 90vh;
   background: #fff;
+  height: 100vh;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
 }
 
 .close-menu {
@@ -82,8 +84,8 @@ a:hover {
   right: 29px;
   top: 32px;
   color: #67798e;
-  font-size: 20px;
   cursor: pointer;
+  font-size: 24px;
 }
 
 .mobile-menu {
