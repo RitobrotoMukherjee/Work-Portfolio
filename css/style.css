@@ -512,9 +512,28 @@ textarea {
   display: none;
 }
 
-.desktop-pop-up {
-  display: none;
+/* mobile popup css */
+.mobile-popup {
+  background: #C1C7D0;
+  
+  padding: 10px;
 }
+
+.mobile-popup-body {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+.mobile-popup-title {
+  width: 70%;
+}
+
+.mobile-popup-img {
+  
+}
+
 
 @media screen and (min-width: 768px) {
   body {
@@ -647,7 +666,7 @@ textarea {
   }
 
   .desktop-pop-up {
-    display: block;
+    /*display: block;*/
     background: #c1c7d0;
     z-index: 1;
     top: 0;
@@ -721,3 +740,5 @@ textarea {
     width: 140px;
   }
 }
+
+
