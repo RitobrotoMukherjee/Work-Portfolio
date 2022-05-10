@@ -530,10 +530,6 @@ textarea {
   width: 70%;
 }
 
-.mobile-popup-img {
-  
-}
-
 
 @media screen and (min-width: 768px) {
   body {
@@ -666,25 +662,29 @@ textarea {
   }
 
   .desktop-pop-up {
-    /*display: block;*/
+    position: fixed;
     background: #c1c7d0;
     z-index: 1;
     top: 0;
+    left: 0;
     width: 100%;
-    padding: 50px;
+    height: 100vh;
+    padding: 30px;
+    overflow-y: auto;
   }
 
   .desktop-modal-body {
+    position: relative;
     background: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 8px;
     width: 920px;
-    position: relative;
-    margin: 0 auto;
-    padding: 40px 20px 20px 20px;
+    margin: auto auto;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
+    
   }
 
   .modal-body-items {
@@ -698,13 +698,8 @@ textarea {
     cursor: pointer;
   }
 
-  .desktop-project-image-holder {
-    width: auto;
-  }
-
   .desktop-project-image-holder > img {
     width: 100%;
-    object-fit: cover;
   }
 
   .desktop-project-title {
