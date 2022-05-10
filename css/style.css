@@ -530,6 +530,29 @@ textarea {
   width: 70%;
 }
 
+.category-list-modal {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile-popup-butttons {
+  display: flex;
+  gap: 5%;
+  width: 100%;
+}
+
+.modal-project-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 160px;
+}
+
+.modal-body-items {
+  margin: 10px 0;
+}
+
+
 
 @media screen and (min-width: 768px) {
   body {
@@ -687,9 +710,7 @@ textarea {
     
   }
 
-  .modal-body-items {
-    margin: 10px 0;
-  }
+  
 
   .close-desktop-modal {
     position: absolute;
@@ -707,10 +728,7 @@ textarea {
     justify-content: space-between;
   }
 
-  .category-list-modal {
-    display: flex;
-  }
-
+  
   .project-description-text {
     font-weight: 400;
     font-size: 20px;
@@ -728,12 +746,9 @@ textarea {
     gap: 5%;
   }
 
-  .modal-project-button {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 140px;
-  }
+  
 }
+
+
 
 
