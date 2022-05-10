@@ -512,6 +512,10 @@ textarea {
   display: none;
 }
 
+.desktop-pop-up {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   body {
     background-image: url("../assets/backgrounds/desktop/Header-desktop.png");
@@ -640,5 +644,80 @@ textarea {
 
   .contact-images-desktop {
     display: inline-block;
+  }
+
+  .desktop-pop-up {
+    display: block;
+    background: #c1c7d0;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    padding: 50px;
+  }
+
+  .desktop-modal-body {
+    background: #fff;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 8px;
+    width: 920px;
+    position: relative;
+    margin: 0 auto;
+    padding: 40px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-body-items {
+    margin: 10px 0;
+  }
+
+  .close-desktop-modal {
+    position: absolute;
+    top: 16px;
+    right: 28px;
+    cursor: pointer;
+  }
+
+  .desktop-project-image-holder {
+    width: auto;
+  }
+
+  .desktop-project-image-holder > img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .desktop-project-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .category-list-modal {
+    display: flex;
+  }
+
+  .project-description-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .desktop-butttons-span {
+    display: inline-block;
+    font-weight: 600;
+  }
+
+  .desktop-title-buttons {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+  }
+
+  .modal-project-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 140px;
   }
 }
