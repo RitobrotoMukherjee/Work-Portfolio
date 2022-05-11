@@ -521,13 +521,13 @@ textarea {
 
 /* mobile popup css */
 .mobile-popup {
-  background: #C1C7D0;
+  background: #c1c7d0;
   position: fixed;
   padding: 10px;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100vh;
+  right: 0;
+  bottom: 0;
   overflow-y: auto;
 }
 
@@ -576,7 +576,6 @@ textarea {
   border-radius: 7px;
   object-fit: cover;
 }
-
 
 @media screen and (min-width: 768px) {
   body {
@@ -714,9 +713,9 @@ textarea {
     z-index: 1;
     top: 0;
     left: 0;
+    bottom: 0;
     width: 100%;
-    height: 100vh;
-    padding: 30px;
+    padding: 30px 0;
     overflow-y: auto;
   }
 
@@ -731,10 +730,9 @@ textarea {
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
-    
   }
 
-  
+
 
   .close-desktop-modal {
     position: absolute;
@@ -752,7 +750,7 @@ textarea {
     justify-content: space-between;
   }
 
-  
+
   .project-description-text {
     font-weight: 400;
     font-size: 20px;
@@ -769,10 +767,4 @@ textarea {
     align-items: center;
     gap: 5%;
   }
-
-  
 }
-
-
-
-

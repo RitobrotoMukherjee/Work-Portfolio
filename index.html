@@ -272,6 +272,7 @@
                 </li>
             </ul>
         </section>
+
     </main>
     
 
@@ -363,16 +364,17 @@
         </div>
     </footer>
 
+    <!-- pop up -->
     <div id="desktop-pop-up" class="desktop-pop-up display-none">
-        <div class="desktop-modal-body">
+        <div id="desktop-modal-body" class="desktop-modal-body">
             <div class="close-desktop-modal modal-body-items">
                 <img src="./assets/icons/Icon.png" alt="close menu button">
             </div>
-            <div class="desktop-project-image-holder modal-body-items">
-                <img id="desktop-project-image" class="desktop-project-image" src="./assets/backgrounds/project-images/snapshoot-portfolio.png" alt="close menu button">
+            <div class="image-container modal-body-items">
+                <img id="desktop-project-image" src="./assets/backgrounds/project-images/snapshoot-portfolio.png" alt="close menu button">
             </div>
             <div class="desktop-project-title modal-body-items">
-                <h3 class="title-header">Keeping track of hundreds of components</h3>
+                <h3 id="desktop-modal-title" class="title-header">Keeping track of hundreds of components</h3>
                 <div class="desktop-title-buttons">
                     <button class="button modal-project-button" type="button">
                         <span class="desktop-butttons-span">See Live</span>
@@ -385,7 +387,7 @@
                 </div>
             </div>
             <div class="desktop-skill-labels modal-body-items">
-                <ul class="category-list-modal">
+                <ul id="desktop-modal-skills-list" class="category-list-modal">
                     <li class="category-items">CodeKit</li>
                     <li class="category-items">GitHub</li>
                     <li class="category-items">JavaScript</li>
@@ -395,14 +397,15 @@
                 </ul>
             </div>
             <div class="desktop-project-description modal-body-items">
-                <p class="project-description-text color-deep-blue">
+                <p id="desktop-modal-project-description" class="project-description-text color-deep-blue">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release
                 </p>
             </div>
         </div>
     </div>
 
-    <div id="mobile-popup" class="mobile-popup">
+    
+    <div id="mobile-popup" class="mobile-popup display-none">
         <div class="mobile-popup-body">
             <div class="image-container-mobile modal-body-items">
                 <img class="mobile-popup-close" src="./assets/icons/close-mobile.png" alt="close menu button">
