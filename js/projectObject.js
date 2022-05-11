@@ -3,7 +3,7 @@ const projectList = [];
 
 for (let i = 1; i <= 6; i += 1) {
   const projectObj = {
-    name: `Multi-Post Stories Gain+Glory`,
+    name: 'Multi-Post Stories Gain+Glory',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release",
     featured_image: './assets/placeholders/dummy.png',
     technologies: ['Ruby On Rails', 'CSS', 'JavaScript', 'HTML'],
