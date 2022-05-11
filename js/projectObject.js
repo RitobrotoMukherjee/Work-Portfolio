@@ -38,7 +38,7 @@ for (let index = 0; index < projectList.length; index += 1) {
 
   const technologies = createMainElements('ul', 'category-list');
   for (let i = 0; i < projectList[index].technologies.length; i += 1) {
-    const li = createMainElements('ul', 'category-items');
+    const li = createMainElements('li', 'category-items');
     li.textContent = projectList[index].technologies[i];
     technologies.appendChild(li);
   }
