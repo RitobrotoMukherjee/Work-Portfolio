@@ -106,97 +106,8 @@
             <div class="section-main-content-margin text-center">
                 <h2 class="primary-header-text color-deep-blue portfolio-heading">My Recent Works</h2>
             </div>
-            <div class="section-main-content-margin text-center css-grid">
-                <div class="portfolio-grid-items card">
-                    <div class="image-container">
-                        <img src="./assets/placeholders/dummy.png" alt="Project one image">
-                    </div>
-                    <div class="project-description text-center">
-                        <h3 class="title-header">Multi-Post Stories Gain+Glory</h3>
-                        <ul class="category-list">
-                            <li class="category-items">Ruby On Rails</li>
-                            <li class="category-items">CSS</li>
-                            <li class="category-items">JavaScript</li>
-                            <li class="category-items">html</li>
-                        </ul>
-                        <button class="button text-center" type="button">See Project</button>
-                    </div>
-                </div>
-                <div class="portfolio-grid-items card">
-                    <div class="image-container">
-                        <img src="./assets/placeholders/dummy.png" alt="Project two image">
-                    </div>
-                    <div class="project-description text-center">
-                        <h3 class="title-header">Multi-Post Stories Gain+Glory</h3>
-                        <ul class="category-list">
-                            <li class="category-items">Ruby On Rails</li>
-                            <li class="category-items">CSS</li>
-                            <li class="category-items">JavaScript</li>
-                            <li class="category-items">html</li>
-                        </ul>
-                        <button class="button text-center" type="button">See Project</button>
-                    </div>
-                </div>
-                <div class="portfolio-grid-items card">
-                    <div class="image-container">
-                        <img src="./assets/placeholders/dummy.png" alt="Project three image">
-                    </div>
-                    <div class="project-description text-center">
-                        <h3 class="title-header">Multi-Post Stories Gain+Glory</h3>
-                        <ul class="category-list">
-                            <li class="category-items">Ruby On Rails</li>
-                            <li class="category-items">CSS</li>
-                            <li class="category-items">JavaScript</li>
-                            <li class="category-items">html</li>
-                        </ul>
-                        <button class="button text-center" type="button">See Project</button>
-                    </div>
-                </div>
-                <div class="portfolio-grid-items card">
-                    <div class="image-container">
-                        <img src="./assets/placeholders/dummy.png" alt="Project four image">
-                    </div>
-                    <div class="project-description text-center">
-                        <h3 class="title-header">Multi-Post Stories Gain+Glory</h3>
-                        <ul class="category-list">
-                            <li class="category-items">Ruby On Rails</li>
-                            <li class="category-items">CSS</li>
-                            <li class="category-items">JavaScript</li>
-                            <li class="category-items">html</li>
-                        </ul>
-                        <button class="button text-center" type="button">See Project</button>
-                    </div>
-                </div>
-                <div class="portfolio-grid-items card">
-                    <div class="image-container">
-                        <img src="./assets/placeholders/dummy.png" alt="Project five image">
-                    </div>
-                    <div class="project-description text-center">
-                        <h3 class="title-header">Multi-Post Stories Gain+Glory</h3>
-                        <ul class="category-list">
-                            <li class="category-items">Ruby On Rails</li>
-                            <li class="category-items">CSS</li>
-                            <li class="category-items">JavaScript</li>
-                            <li class="category-items">html</li>
-                        </ul>
-                        <button class="button text-center" type="button">See Project</button>
-                    </div>
-                </div>
-                <div class="portfolio-grid-items card">
-                    <div class="image-container">
-                        <img src="./assets/placeholders/dummy.png" alt="Project six image">
-                    </div>
-                    <div class="project-description text-center">
-                        <h3 class="title-header">Multi-Post Stories Gain+Glory</h3>
-                        <ul class="category-list">
-                            <li class="category-items">Ruby On Rails</li>
-                            <li class="category-items">CSS</li>
-                            <li class="category-items">JavaScript</li>
-                            <li class="category-items">html</li>
-                        </ul>
-                        <button class="button text-center" type="button">See Project</button>
-                    </div>
-                </div>
+            <div id="project-lists" class="section-main-content-margin text-center css-grid">
+                
             </div>
         </section>
     
@@ -272,6 +183,7 @@
                 </li>
             </ul>
         </section>
+
     </main>
     
 
@@ -363,8 +275,82 @@
         </div>
     </footer>
 
+    <!-- pop up -->
+    <div id="desktop-pop-up" class="desktop-pop-up display-none">
+        <div id="desktop-modal-body" class="desktop-modal-body">
+            <div class="close-desktop-modal modal-body-items">
+                <img class="see-close-project" src="./assets/icons/Icon.png" alt="close menu button">
+            </div>
+            <div class="image-container modal-body-items">
+                <img id="desktop-project-image" src="./assets/backgrounds/project-images/snapshoot-portfolio.png" alt="close menu button">
+            </div>
+            <div class="desktop-project-title modal-body-items">
+                <h3 id="desktop-modal-title" class="title-header">Keeping track of hundreds of components</h3>
+                <div class="desktop-title-buttons">
+                    <button class="button modal-project-button" type="button">
+                        <span class="desktop-butttons-span">See Live</span>
+                        <span class="desktop-butttons-span"><img src="./assets/icons/modal-icons/desktop-icons/view-source.png" alt="See Live" ></span>
+                    </button>
+                    <button class="button modal-project-button" type="button">
+                        <span class="desktop-butttons-span">See Source</span>
+                        <span class="desktop-butttons-span"><img src="./assets/icons/modal-icons/desktop-icons/gitHub-icon.png" alt="See source" ></span>
+                    </button>
+                </div>
+            </div>
+            <div class="desktop-skill-labels modal-body-items">
+                <ul id="desktop-modal-skills-list" class="category-list-modal">
+                    <li class="category-items">CodeKit</li>
+                    <li class="category-items">GitHub</li>
+                    <li class="category-items">JavaScript</li>
+                    <li class="category-items">Bootstrap</li>
+                    <li class="category-items">Terminal</li>
+                    <li class="category-items">Codepen</li>
+                </ul>
+            </div>
+            <div class="desktop-project-description modal-body-items">
+                <p id="desktop-modal-project-description" class="project-description-text color-deep-blue">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release
+                </p>
+            </div>
+        </div>
+    </div>
+
     
-    <script src="script.js"></script>
+    <div id="mobile-popup" class="mobile-popup display-none">
+        <div class="mobile-popup-body">
+            <div class="image-container-mobile modal-body-items">
+                <img class="mobile-popup-close see-close-project" src="./assets/icons/close-mobile.png" alt="close menu button">
+                <img class="mobile-popup-img" alt="project img" src="./assets/backgrounds/project-images/project-img-mobile.png" />
+            </div>
+            <h3 class="title-header mobile-popup-title modal-body-items">Keeping track of hundreds of components</h3>
+            <ul class="category-list-modal modal-body-items">
+                <li class="category-items">Ruby on rails</li>
+                <li class="category-items">CSS</li>
+                <li class="category-items">JavaScript</li>
+            </ul>
+            <p class="project-description-text color-deep-blue modal-body-items">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with
+                the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                1960s with the release
+            </p>
+            <div class="mobile-popup-butttons modal-body-items">
+                <button class="button modal-project-button" type="button">
+                    <span class="desktop-butttons-span">See Live</span>
+                    <span class="desktop-butttons-span"><img src="./assets/icons/modal-icons/desktop-icons/view-source.png"
+                            alt="See Live"></span>
+                </button>
+                <button class="button modal-project-button" type="button">
+                    <span class="desktop-butttons-span">See Source</span>
+                    <span class="desktop-butttons-span"><img src="./assets/icons/modal-icons/desktop-icons/gitHub-icon.png"
+                            alt="See source"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/projectObject.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
