@@ -6,6 +6,10 @@
   font-family: 'Inter', sans-serif;
 }
 
+.display-none {
+  display: none;
+}
+
 ul {
   list-style: none;
 }
@@ -55,6 +59,52 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
   padding: 15px 20px;
+}
+
+.mobile-menu-background {
+  background: #e5e5e5;
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.menu-mobile-div {
+  position: relative;
+  background: #fff;
+  height: 100vh;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+}
+
+.close-menu {
+  position: absolute;
+  right: 29px;
+  top: 32px;
+  color: #67798e;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 76px 28px;
+}
+
+.mobile-menu-items {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  margin-top: 30px;
+}
+
+.mobile-menu-items:first-child {
+  margin-top: 10px;
 }
 
 .welcome-logo {
@@ -467,6 +517,10 @@ textarea {
     background-image: url("../assets/backgrounds/desktop/Header-desktop.png");
     background-size: 100%;
     background-repeat: no-repeat;
+  }
+
+  #mobile-menu {
+    display: none;
   }
 
   .footer-main-div {

@@ -21,9 +21,19 @@ It's a responsive Full Stack Software Developer portfolio.
 
 ## Authors
 
+👤 **Ritobroto Mukherjee**
+
+- Portfolio: [@Rito](https://ritobrotomukherjee.github.io/Work-Portfolio/)
 - GitHub: [@RitobrotoMukherjee](https://github.com/RitobrotoMukherjee)
 - Twitter: [@RitobrotoM3](https://twitter.com/RitobrotoM3)
 - LinkedIn: [Ritobroto Mukherjee](https://www.linkedin.com/in/ritobroto-mukherjee-519148ba/)
+
+👤 **Mohamed Jadib**
+
+- Portfolio: [@MJ](https://jadibdev.github.io/)
+- GitHub: [@jadibdev](https://github.com/jadibdev)
+- Twitter: [@MohamedJadib](https://twitter.com/MohamedJadib)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-jadib-942a5041/)
 
 ## 🤝 Contributing
 
