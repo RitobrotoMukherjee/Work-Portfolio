@@ -732,8 +732,6 @@ textarea {
     flex-direction: column;
   }
 
-
-
   .close-desktop-modal {
     position: absolute;
     top: 16px;
@@ -749,7 +747,6 @@ textarea {
     display: flex;
     justify-content: space-between;
   }
-
 
   .project-description-text {
     font-weight: 400;
