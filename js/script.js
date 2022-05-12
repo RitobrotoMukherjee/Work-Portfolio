@@ -35,11 +35,14 @@ seeCloseProjectButton.forEach((item) => {
 //   const email = contactForm.elements['email'].value;
 //   const styles = getComputedStyle(formErrorDiv);
 //   const errorP = document.getElementById('error-message');
+//   formErrorDiv.style.width = '0px';
+//   formErrorDiv.style.visibility = 'hidden';
 //   if(styles.visibility === 'hidden' && email !== email.toLowerCase()){
 //     formErrorDiv.style.visibility = 'visible';
 //     formErrorDiv.style.width = '301.865px';
 //     message = `Email Has to be in lower case, You passed: ${email}`;
 //   }
+  
 //   errorP.textContent = message;
 //   return message;
 // }
