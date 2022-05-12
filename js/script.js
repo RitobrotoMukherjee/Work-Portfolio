@@ -2,6 +2,7 @@ const toggleMenuButton = document.querySelectorAll('.toggle-mobile-menu');
 const seeCloseProjectButton = document.querySelectorAll('.see-close-project');
 const contactForm = document.getElementById('contact-form');
 const formErrorDiv = document.getElementById('error-div');
+const email = document.getElementById('input-email');
 
 const toggleDisplay = (section) => {
   section.classList.toggle('display-none');
@@ -31,25 +32,21 @@ seeCloseProjectButton.forEach((item) => {
 // Form validation
 
 const validationWithMessage = () => {
-  let message = '';
-  const email = contactForm.elements.email.value;
-  const styles = getComputedStyle(formErrorDiv);
   const errorP = document.getElementById('error-message');
-  formErrorDiv.style.width = '0px';
-  formErrorDiv.style.visibility = 'hidden';
-  if (styles.visibility === 'hidden' && email !== email.toLowerCase()) {
-    formErrorDiv.style.visibility = 'visible';
-    formErrorDiv.style.width = '301.865px';
-    message = `Email Has to be in lower case, You passed: ${email}`;
+  if (email.value === email.value.toLowerCase()) {
+    formErrorDiv.style.width = '0px';
+    formErrorDiv.style.visibility = 'hidden';
+    return false;
   }
-
-  errorP.textContent = message;
-  return message;
+  formErrorDiv.style.visibility = 'visible';
+  formErrorDiv.style.width = '301.865px';
+  errorP.textContent = `Email Has to be in lower case, You passed: ${email.value}`;
+  return true;
 };
 
 contactForm.addEventListener('submit', (ev) => {
   ev.preventDefault();
-  const error = validationWithMessage();
+  let error = validationWithMessage();
   if (!error) {
     formErrorDiv.style.visibility = 'hidden';
     contactForm.submit();
