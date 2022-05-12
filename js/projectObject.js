@@ -14,7 +14,7 @@ for (let i = 1; i <= 6; i += 1) {
   projectList.push(projectObj);
 }
 
-// Process 1. Time Space Complexity O(log n) - Best
+// Process 1. Time Space Complexity O(log n) - Best Performance
 // Can be achieved same with string concatenation if not familiar with template literals.
 
 const getListHtml = (skillsArr) => skillsArr.map((item) => `<li class="category-items">${item}</li>`).join(' ');
@@ -29,14 +29,16 @@ for (let index = 0; index < projectList.length; index += 1) {
       <ul class="category-list">
         ${getListHtml(projectList[index].technologies)}
       </ul>
-      <button id="project-${index + 1}" class="button text-center see-close-project">See Project</button>
+      <button id="project-${index + 1}" data-project-index=${index} class="button text-center see-close-project">
+        See Project
+      </button>
     </div>
   </div>`;
-  const frag = range.createContextualFragment(html);
-  getProjectListParentDiv.append(frag);
+  const fragment = range.createContextualFragment(html);
+  getProjectListParentDiv.append(fragment);
 }
 
-// Process 2. Time Space Complexity O(n).
+// Process 2. Time Space Complexity O(n). - Ok performance
 // Even design pattern looks bad cause fucntion will be very big in size in case of huge div
 
 // const createMainElements = (elem, classes) => {

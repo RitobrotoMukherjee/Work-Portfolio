@@ -130,6 +130,25 @@ a:hover {
   transition: margin 0.75s, transform 1s;
 }
 
+.form-errors {
+  color: rgb(197, 6, 6);
+  border: 1px solid rgb(201, 35, 35);
+  padding: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  font-weight: bold;
+  margin: 5px 0;
+  visibility: hidden;
+  width: 0%;
+  transition: visibility 1s, width 2s;
+}
+
+.error-paragraph {
+  font-size: 10px;
+  line-height: 14px;
+  padding: 10px 10px;
+}
+
 .main-section {
   background-image: url("../assets/backgrounds/header-mobile@2x.png");
   background-repeat: no-repeat;
