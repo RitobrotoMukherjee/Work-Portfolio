@@ -46,7 +46,7 @@ const validationWithMessage = () => {
 
 contactForm.addEventListener('submit', (ev) => {
   ev.preventDefault();
-  let error = validationWithMessage();
+  const error = validationWithMessage();
   if (!error) {
     formErrorDiv.style.visibility = 'hidden';
     contactForm.submit();
