@@ -197,18 +197,16 @@
             </div>
             <div id="footer-form" class="contact-form-margin text-center">
                 <form id="contact-form" class="contact-form" action="https://formspree.io/f/xbjwpgay" method="POST">
-                    <input class="form-controls" placeholder="Full name" type="text" name="name" maxlength="30"
+                    <input id="input-name" class="form-controls input-fields" placeholder="Full name" type="text" name="name" maxlength="30"
                         required />
-                    <input id="input-email" class="form-controls" placeholder="Email address" type="email" name="email" required />
-                    <textarea class="form-controls" placeholder="Enter text here" name="message" maxlength="500"
+                    <input id="input-email" class="form-controls input-fields" placeholder="Email address" type="email" name="email" required />
+                    <textarea id="input-message" class="form-controls input-fields" placeholder="Enter text here" name="message" maxlength="500"
                         required>
                     </textarea>
                     <div id="error-div" class="form-errors">
-                        <p id="error-message" class="error-paragraph">
-                            
-                        </p>
+                        <p id="error-message" class="error-paragraph"></p>
                     </div>
-                    <button class="button long-btn text-center" type="submit">Get in touch</button>
+                    <button id="contact-button-submit" class="button long-btn text-center" type="submit">Get in touch</button>
                 </form>
                 
                 <ul class="social-media-contact">
@@ -355,6 +353,7 @@
             </div>
         </div>
     </div>
+    <script src="./js/storeData.js"></script>
     <script src="./js/projectObject.js"></script>
     <script src="./js/script.js"></script>
 </body>
